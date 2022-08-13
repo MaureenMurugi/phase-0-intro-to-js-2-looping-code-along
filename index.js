@@ -9,8 +9,8 @@ const event = "surprise";
 let thankYouCard = [];
 function writeCards(names, event) {
     
-    for (let i=0; i < names; i++) {
-        thankYouCard.push(`Thank you, ${names[i]}, for the wonderful ${event} gift! `);
+    for (let i=0; i < names.length; i++) {
+        thankYouCard.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
     
     }
     return thankYouCard;
