@@ -15,7 +15,7 @@ function writeCards(names, event) {
     }
     return thankYouCard;
 }
-console.log(writeCards(thankYouCard));
+console.log(writeCards(names, event));
 
 function countDown(startingNumber) {
     while (startingNumber > 0) {
